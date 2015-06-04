@@ -1,0 +1,10 @@
+<employees>
+	<employee>
+		<name>Ajay</name>
+		<city>Blr</city>
+	</employee>
+	<employee>
+		<name>Bijoy</name>
+		<city>Hyd</city>
+	</employee>
+</employees>
