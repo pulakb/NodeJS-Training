@@ -44,8 +44,8 @@ function newSocket(socket) {
 	sockets.push(socket);
 	socket.write('Welcome to Telnet Server!\n');
 
-	socket.on('data', function () {
-		received(socket, data);
+	socket.on('data', function (data) {
+		receiveData(socket, data);
 	});
 
 	socket.on('end', function () {
