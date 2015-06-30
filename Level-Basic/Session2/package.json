@@ -1,0 +1,7 @@
+{
+  "name": "Session2",
+  "version": "0.0.1",
+  "dependencies": {
+    "formidable": "~1.0.17"
+  }
+}

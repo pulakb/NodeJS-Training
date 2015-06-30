@@ -1,4 +1,12 @@
+// To use the HTTP server and client one must require('http').
 var http = require("http");
+
+/*
+* http.createServer([requestListener])
+* Returns a new instance of http.Server.
+*
+* This is an EventEmitter with event like 'request', 'connection', 'close'
+* */
 var server = http.createServer();
  
 /*

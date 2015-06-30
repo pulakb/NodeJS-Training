@@ -10,6 +10,8 @@ var emitterObj = new eventEmitter();
 //Define the callback function
 var ringBell = function ringBell() {
 	console.log('I am ringing only once');
+
+    // Remove the listener
 	emitterObj.removeListener('doorOpen', ringBell);
 };
 

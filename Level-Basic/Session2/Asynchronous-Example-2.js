@@ -11,6 +11,11 @@ function getTitles(res) {
 			return hadError(err, res);
 		}
 
+        /*
+        * The JSON.parse() method parses a string as JSON, i.e. it returns
+        * the object corresponding to the given text.
+        * */
+
 		getTemplate(JSON.parse(data.toString()), res);
 	});
 }
