@@ -21,6 +21,8 @@ var database = {
 */
 
 function UserList () {
+    //Calling the EvenEmitter constructor - Rent-a-Constructor : EventEmitter properties and methods added to 'this'
+    // are getting inherited and UserList gets it as own copy.
 	EventEmitter.call(this);
 }
 
